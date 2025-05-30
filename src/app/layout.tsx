@@ -6,20 +6,21 @@ import { ActiveThemeProvider } from "@/components/ui/active-theme";
 import { cookies } from "next/headers";
 import { cn } from "@/lib/utils";
 
-const META_THEME_COLORS = {
-  light: "#ffffff",
-  dark: "#09090b",
-};
+// ==== build lint error ====
+// const META_THEME_COLORS = {
+//   light: "#ffffff",
+//   dark: "#09090b",
+// };
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
+// const geistSans = Geist({
+//   variable: "--font-geist-sans",
+//   subsets: ["latin"],
+// });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+// const geistMono = Geist_Mono({
+//   variable: "--font-geist-mono",
+//   subsets: ["latin"],
+// });
 
 export const metadata: Metadata = {
   title: "Create Next App",

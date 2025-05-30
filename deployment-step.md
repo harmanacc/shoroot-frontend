@@ -20,6 +20,18 @@
   sudo apt install -y git curl
   ```
 
+- **Install nvm & node:**
+
+  ```bash
+    curl -fsSL https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.0/install.sh -o /tmp/nvm_setup.sh
+
+    bash /tmp/nvm_setup.sh
+
+    source ~/.bashrc
+
+    nvm install --lts
+  ```
+
 ## 2. Install Docker
 
 - Install Docker to containerize your Next.js app:
